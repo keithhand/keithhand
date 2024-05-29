@@ -30,11 +30,11 @@
         alt="azure" width="40" height="40"/>
   </a>
   <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer">
-    <img src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg"
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bash/bash-original.svg"
         alt="bash" width="40" height="40"/>
   </a>
   <a href="https://circleci.com" target="_blank" rel="noreferrer">
-    <img src="https://www.vectorlogo.zone/logos/circleci/circleci-icon.svg"
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/circleci/circleci-plain.svg"
         alt="circleci" width="40" height="40"/>
   </a>
   <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer">
@@ -70,7 +70,7 @@
         alt="firebase" width="40" height="40"/>
   </a>
   <a href="https://flask.palletsprojects.com/" target="_blank" rel="noreferrer">
-    <img src="https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-icon.svg"
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flask/flask-original.svg"
         alt="flask" width="40" height="40"/>
   </a>
   <a href="https://flutter.dev" target="_blank" rel="noreferrer">
@@ -118,7 +118,7 @@
         alt="kubernetes" width="40" height="40"/>
   </a>
   <a href="https://laravel.com/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/laravel/laravel-plain-wordmark.svg"
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/laravel/laravel-original.svg"
         alt="laravel" width="40" height="40"/>
   </a>
   <a href="https://www.linux.org/" target="_blank" rel="noreferrer">
