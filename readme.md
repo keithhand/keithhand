@@ -3,9 +3,10 @@
   A software developer passionate about DevOps, Kubernetes, and learning new stuff.
 </h3>
 
-- 🔭 I’m currently working on [my dotfiles](https://github.com/keithhand/dotfiles)
+- 🔭 I’m currently working on
+[a portal for my homelab](https://github.com/keithhand/homelab)
 
-- 🌱 I'm improving at **Neovim and Lua**
+- 🌱 I'm improving at **Golang**
 
 - 💬 Ask me about **Kubernetes, Containers, or Linux**
 
