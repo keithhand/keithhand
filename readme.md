@@ -3,10 +3,9 @@
   A software developer passionate about DevOps, Kubernetes, and learning new stuff.
 </h3>
 
-- 🔭 I’m currently working on
-[a portal for my homelab](https://github.com/keithhand/homelab)
+- 🔭 I’m working on creating [app-msngr](https://github.com/keithhand/app-msngr)
 
-- 🌱 I'm improving at **Golang**
+- 🌱 I'm sharpening my **Go and Neovim** skills
 
 - 💬 Ask me about **Kubernetes, Containers, or Linux**
 
