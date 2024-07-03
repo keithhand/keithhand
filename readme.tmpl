@@ -1,0 +1,33 @@
+# Hey :wave:, I'm {{ .Name }}
+
+{{ .Desc }}
+
+{{ if .About -}}
+## About me
+{{ range .About }}
+- {{ . }}
+{{- end }}
+{{ end -}}
+
+{{ if or .Langs.Active .Langs.Previous }}
+## Language and Tool Specialties
+{{ if .Langs.Active }}
+### Currently using
+{{ template "printLanguages" (.Langs.Active) }}
+{{- end -}}
+{{ if .Langs.Previous }}
+### Familiar with
+{{ template "printLanguages" (.Langs.Previous) }}
+{{- end -}}
+{{- end -}}
+
+{{- define "printLanguages" }}
+<p align="left">
+  {{- range . }}
+  <a href="{{ .Href }}" target="_blank" rel="noreferrer">
+    <img alt="{{ .Name }}" width="{{ .Size }}" height="{{ .Size }}"
+      src="{{ .Img }}"/>
+  </a>
+  {{- end }}
+</p>
+{{ end -}}
