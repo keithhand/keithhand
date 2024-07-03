@@ -1,6 +1,7 @@
 package main
 
 import (
+	"fmt"
 	"log"
 	"os"
 	"text/template"
@@ -30,12 +31,26 @@ type Languages struct {
 
 type Language struct {
 	Name string
-	Img  string
 	Href string
+	Type string
 }
 
 func (Language) Size() int {
 	return iconSize
+}
+
+func (l Language) Url() string {
+	file := l.Name
+	switch l.Type {
+	default:
+		file += "-original"
+	case "wordmark":
+		file += "-original-wordmark"
+	case "plain":
+		file += "-plain"
+	}
+	url := fmt.Sprintf("https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/%s/%s.svg", l.Name, file)
+	return url
 }
 
 func main() {
