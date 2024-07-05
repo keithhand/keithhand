@@ -10,7 +10,7 @@ import (
 )
 
 const (
-	outputFile   = "readme.md"
+	outputFile   = "README.md"
 	templateFile = "readme.tmpl"
 	configFile   = "config.yaml"
 
