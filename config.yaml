@@ -5,30 +5,30 @@ about:
   - 💬 Ask me about **Kubernetes, Containers, or Linux**
 langs:
   active:
+    - href: https://kubernetes.io
+      name: kubernetes
+    - href: https://golang.org
+      name: go
+    - href: https://www.docker.com/
+      name: docker
+    - href: https://www.gnu.org/software/bash/
+      name: bash
+    - href: https://www.linux.org/
+      name: linux
+    - href: https://www.w3.org/html/
+      name: html5
+    - href: https://www.w3schools.com/css/
+      name: css3
+    - href: https://git-scm.com/
+      name: git
+  previous:
     - href: https://aws.amazon.com
       name: amazonwebservices
       type: wordmark
-    - href: https://azure.microsoft.com/en-in/
-      name: azure
-    - href: https://www.gnu.org/software/bash/
-      name: bash
-    - href: https://www.w3schools.com/css/
-      name: css3
-    - href: https://www.docker.com/
-      name: docker
     - href: https://cloud.google.com
       name: googlecloud
-    - href: https://git-scm.com/
-      name: git
-    - href: https://golang.org
-      name: go
-    - href: https://www.w3.org/html/
-      name: html5
-    - href: https://kubernetes.io
-      name: kubernetes
-    - href: https://www.linux.org/
-      name: linux
-  previous:
+    - href: https://azure.microsoft.com/en-in/
+      name: azure
     - href: https://circleci.com
       name: circleci
       type: plain
